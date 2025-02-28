@@ -1,9 +1,7 @@
 "use client"
-import { Socials } from '@/constants/index'
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import React from 'react'
-import Links from './Links'
 
 const Navbar = () => {
     const path = usePathname();
