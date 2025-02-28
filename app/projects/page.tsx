@@ -38,7 +38,7 @@ const Projects = () => {
                 Interview AI
             </motion.div>
             <motion.p variants={slideInFromLeft(0.8)} className='text-lg text-gray-400 max-w-[1000px]'>
-                            I'm a Full-Stack software Engineer with experience in Website, Mobile, Generative AI, AI agents and Software developement. Check out my projects and skills
+                            I&apos;m a Full-Stack software Engineer with experience in Website, Mobile, Generative AI, AI agents and Software developement. Check out my projects and skills
             </motion.p>
             </div>            
             <AnimatedTestimonials testimonials={testimonials} />

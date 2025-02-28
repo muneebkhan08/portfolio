@@ -32,7 +32,7 @@ const HeroContainer = () => {
             </motion.div>
 
             <motion.p variants={slideInFromLeft(0.8)} className='text-lg text-gray-400 my-5 max-w-[600px]'>
-                I'm a Full-Stack software Engineer with experience in Website, Mobile, Generative AI, AI agents and Software developement. Check out my projects and skills
+                I&apos;m a Full-Stack software Engineer with experience in Website, Mobile, Generative AI, AI agents and Software developement. Check out my projects and skills
             </motion.p>
 
             <motion.a variants={slideInFromLeft(1)} className='py-3 button-primary text-center text-gray-100 font-bold cursor-pointer rounded-lg max-w-[250px] transition-all'>
