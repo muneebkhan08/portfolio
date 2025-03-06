@@ -1,13 +1,13 @@
-import { AI_tools, Backend_skill, Frontend_skill, Full_stack, Other_AI} from '@/constants'
+import { AI_tools, Backend_skill, Frontend_skill, Full_stack, Other_AI} from '@/constants/index'
 import React from 'react'
 import SkillDataProvider from './SkillDataProvider'
 
 
 const Skills = () => {
   return (
-    <section id='skills' className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-[390px] py-20' style={{transform: "scale(0.9)"}}>
+    <section id='skills' className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-[390px] py-[6rem]' style={{transform: "scale(0.9)"}}>
 
-        <h2 className=" text-5xl pb-5 font-bold items-center justify-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Skills and Technologies</h2>
+        <h2 className=" text-6xl pb-5 font-extrabold items-center justify-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Skills and Technologies</h2>
 
         <div  className='text-xl font-bold text-gray-400 mt-16 text-center mb-[10px]'>
             Making Web Apps with Modern Technologies and with exceptional 3D designs
@@ -41,7 +41,7 @@ const Skills = () => {
             ))}
         </div>
 
-        <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
+        <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center pb-10'>
             {Other_AI.map((image, index)=>(
                 <SkillDataProvider key={index} src={image.Image} width={image.width} height={image.width} index={index} />
             ))}

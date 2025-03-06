@@ -77,7 +77,7 @@ const Navbar = () => {
             height={50}
             className="cursor-pointer hover:animate-slowspin rounded-full hover:blur-sm transition-all"
           />
-          <span className="font-bold text-xl ml-[10px] hidden md:block text-[#9a81e4ed] hover:text-[#8c71dcef] hover:bg transition-all">
+          <span className="font-bold text-xl ml-[10px] hidden md:block text-[#b49bff] hover:text-[#8c71dcef] hover:bg transition-all">
             Muhammad Muneeb Khan
           </span>
         </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
               href="/about"
               className={`hover:font-bold transition-all cursor-pointer relative px-6 py-1 ${
                 path == "/about" &&
-                "font-bold text-[#a385ff] after:absolute after:inset-0 after:border-[2px] after:border-[#a090fedc] after:rounded-full after:pointer-events-none"
+                "font-bold text-purple-500 after:absolute after:inset-0 after:border-[2px] after:border-purple-500 after:rounded-full after:pointer-events-none"
               }`}
             >
               About Me
@@ -97,7 +97,7 @@ const Navbar = () => {
               href="/services"
               className={`hover:font-bold transition-all cursor-pointer relative px-6 py-1 ${
                 path == "/services" &&
-                "font-bold text-[#a385ff] after:absolute after:inset-0 after:border-[2px] after:border-[#a090fedc] after:rounded-full after:pointer-events-none"
+                "font-bold text-purple-500 after:absolute after:inset-0 after:border-purple-500 after:border-[2px] after:rounded-full after:pointer-events-none"
               }`}
             >
               Services
@@ -106,7 +106,7 @@ const Navbar = () => {
               href="/projects"
               className={`hover:font-bold transition-all cursor-pointer relative px-6 py-1 ${
                 path == "/projects" &&
-                "font-bold text-[#a385ff] after:absolute after:inset-0 after:border-[2px] after:border-[#a090fedc] after:rounded-full after:pointer-events-none"
+                "font-bold text-purple-500 after:absolute after:inset-0 after:border-[2px] after:border-purple-500 after:rounded-full after:pointer-events-none"
               }`}
             >
               Projects
@@ -116,8 +116,8 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-2">
           <Link
-            href="#contact"
-            className="bg-[#6134e6b1] cursor-pointer rounded-full text-white px-5 py-2 hover:bg-[#7749ff] transition-all"
+            href="/contact"
+            className="bg-[#7d52ffb1] cursor-pointer rounded-full text-white px-5 py-1 text-xl hover:bg-[#7749ff] transition-all"
           >
             Contact
           </Link>
